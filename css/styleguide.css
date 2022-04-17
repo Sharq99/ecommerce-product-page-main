@@ -1,0 +1,98 @@
+:root { 
+  --black: #000000;
+  --bombay: #afb2b7;
+  --jaffa: #ed8230;
+  --linen: #fcefe6;
+  --mist-gray: #c4c4c4;
+  --oslo-gray: #8e8f93;
+  --pumpkin: #ff7d1b;
+  --shark: #1f2227;
+  --shark-2: #242429;
+  --white: #ffffff;
+  --white-2: #ffffffb5;
+  --white-lilac: #f7f8fd;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 15px;
+  --font-size-xl: 35px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 50px;
+ 
+  --font-family-kumbh_sans: "Kumbh Sans", Helvetica;
+}
+.kumbhsans-medium-oslo-gray-18px {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.kumbhsans-extra-bold-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.kumbhsans-extra-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.kumbhsans-extra-bold-shark-35px {
+  color: var(--shark-2);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.kumbhsans-bold-jaffa-15px {
+  color: var(--jaffa);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.kumbhsans-semi-bold-shark-50px {
+  color: var(--shark);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.kumbhsans-bold-shark-35px {
+  color: var(--shark);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.kumbhsans-bold-pumpkin-20px {
+  color: var(--pumpkin);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.kumbhsans-bold-bombay-18px {
+  color: var(--bombay);
+  font-family: var(--font-family-kumbh_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-3px-pumpkin {
+  border: 3px solid var(--pumpkin);
+}
